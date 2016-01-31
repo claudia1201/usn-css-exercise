@@ -1,0 +1,37 @@
+*{
+	padding: 0;
+	margin:0;
+	box-sizing:border-box;
+	font-family: 'Verdana';
+}
+header, footer{
+  background-color: rgb(6, 79, 147);
+  color: rgb(255,255,255);
+  text-align: center;
+  padding: 3%;
+}
+.container{
+	position: relative;
+	margin: 10% 20%;
+}
+.tab span{
+	display: inline-block;
+}
+.tab{
+	padding: 3%;
+}
+.hover{
+	display: none;
+}
+.active{
+	display: block;
+}
+.tab:hover{
+	background-color: rgb(203, 203, 203);
+}
+.tab:hover .active{
+	display: none;
+}
+.tab:hover .hover{
+	display: block;
+}
